@@ -1,0 +1,1 @@
+aws cloudformation create-stack --stack-name "cf-jorge4"  --template-url https://cf-jorge-test.s3-us-west-2.amazonaws.com/cfs3.yaml --parameters ParameterKey=ParamBucketName,ParameterValue=jorge-test4
